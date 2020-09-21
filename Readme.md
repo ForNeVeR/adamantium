@@ -20,3 +20,31 @@ Plan
 
 Voilá, we have the compiler that can compile itself. This is a first step of
 bootstrapping, and we may further improve the language.
+
+Build
+-----
+
+To build Adamantium, you'll need [NPM][npm] 6+ and Node.js 12+.
+
+```console
+$ npm compile
+```
+
+Test
+----
+
+```console
+$ npm test
+```
+
+Run
+---
+
+Currently, only initial step of the lexer is implemented. To execute it, run
+the following command:
+
+```console
+$ npm start ./test/test.ts
+```
+
+[npm]: https://www.npmjs.com/

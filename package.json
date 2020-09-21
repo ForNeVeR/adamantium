@@ -1,21 +1,23 @@
 {
-  "name": "adamantium",
-  "version": "0.0.1",
-  "scripts": {
-    "compile": "tsc src/parser.ts"
-  },
-  "devDependencies": {
-    "typescript": "^3.5.3",
-    "@types/node": "^12.7.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ForNeVeR/adamantium.git"
-  },
-  "author": "Friedrich von Never",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ForNeVeR/adamantium/issues"
-  },
-  "homepage": "https://github.com/ForNeVeR/adamantium#readme"
+    "name": "adamantium",
+    "version": "0.0.1",
+    "scripts": {
+        "compile": "tsc src/parser.ts",
+        "start": "node ./src/parser.js",
+        "test": "npm start -- ./test/test.ts"
+    },
+    "devDependencies": {
+        "typescript": "^3.5.3",
+        "@types/node": "^12.7.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ForNeVeR/adamantium.git"
+    },
+    "author": "Friedrich von Never",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ForNeVeR/adamantium/issues"
+    },
+    "homepage": "https://github.com/ForNeVeR/adamantium#readme"
 }
